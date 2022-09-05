@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap');
+*{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightskyblue;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+#hvaler{
+    background-color: greenyellow;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 90vh;
+    display: grid;
+    grid-template-rows:10vh 90vh;
+    transition: ease-in-out 0.6s;
+}
+
+#Dato{
+    background-color:black;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 90vh;
+    display: grid;
+    grid-template-rows:10vh 90vh;
+    transition: ease-in-out 0.6s;
+}
+
+.introD{
+    height: 3rem;
+    display: grid;
+    place-items: center;
+    color: lightcyan;
+}
+
+#dato .date{
+    padding: 20vw;
+    background-color: rgba(100, 100, 100, 0.8);
+}
+
+.exampleD{
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+}
+
+#endpointD{
+    height: 3rem;
+    background:white;
+    border: 1px solid black;
+    display: grid;
+    align-content: center;
+    padding-left: 2rem;
+}
+
+#submitD{
+    height: 3rem;
+    display: grid;
+    place-items: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#hvaler h2{
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.intro{
+    height: 3rem;
+    display: grid;
+    place-items: center;
+    color: lightcyan;
+}
+
+#hvaler .content{
+    padding: 20vw;
+    background-color: rgba(100, 100, 100, 0.8);
+}
+
+.example{
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+}
+
+#endpointH{
+    height: 3rem;
+    background:white;
+    border: 1px solid black;
+    display: grid;
+    align-content: center;
+    padding-left: 2rem;
+}
+
+#submitH{
+    height: 3rem;
+    display: grid;
+    place-items: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.json{
+    width: 100%;
+    height: 20vh;
+    background: white;
+    margin-top: 0.5rem;
+    border: 1px solid lightcoral;
+    padding: 2rem;
+}
